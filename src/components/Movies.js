@@ -74,7 +74,7 @@ function Movies() {
                         <div className='flex flex-wrap items-center justify-center  '>
                             {
                                 movies.map((movie) => (
-                                    <div className={`bg-[url(https://image.tmdb.org/t/p/original${movie.backdrop_path})] h-[25vh] w-[160px] md:h-[30vh] md:w-[230px] bg-center bg-cover rounded-xl flex items-end mb-4 m-4 hover:scale-110 ease-out duration-300 relative`} onMouseEnter={()=>{setHover(movie.id) }}  onMouseLeave={()=>{setHover('')}} >
+                                    <div className={`bg-[url(https://image.tmdb.org/t/p/original${movie.backdrop_path})] h-[25vh] w-[160px] md:h-[30vh] md:w-[230px] bg-center bg-cover rounded-xl flex items-end mb-4 m-4 hover:scale-110 ease-out duration-300 md:hover:scale-110 ease-out duration-300 relative`} onMouseEnter={()=>{setHover(movie.id) }}  onMouseLeave={()=>{setHover('')}} >
                                        {
                                            movie.id == hover && <>
                                            {
