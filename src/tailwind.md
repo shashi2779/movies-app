@@ -30,8 +30,15 @@ align-items: center;
  
  - element ko agal-bagal lane k liye in tailwind css
 ```js
-  <div className="flex"></div>
 
+    <div className="flex">
+        ...........
+        ...........
+        ...........
+    </div>
+
+    
+    
     <div className={`flex space-x-8 px-8`}>
        ..........
        ..........
