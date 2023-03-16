@@ -49,10 +49,20 @@ justify-center
 - display : flex => flex
 - flex-column : flex-col
 - justify-content : center => justify-center
-- align-item: center => items-center ,items-end
+- align-item: center
+    - items-center
+    - items-end
 
-- height : 100% ,100px => h-1,2,3,4,5,6
-- width : 100% ,100px => w-full ,w-3
+- height : 100% ,100px
+  - h-1
+  - h-2,
+  - h-3,
+  - h-4,
+  - h-5,
+  - h-6
+- width : 100% ,100px
+  - w-full
+  - w-3
 
 - padding : 8px
   - px-8 (padding x-axis me 8)  - tailwind css me 
