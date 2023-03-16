@@ -17,7 +17,11 @@
 - element ko agal-bagal lane k liye in css
   
   - display : flex
+- other property
+```js
+padiing : 20px;
 
+```
 
  ### tailwind css 
  
@@ -29,7 +33,10 @@
 ```js
     <div className="space-x-8"></div>
 ```
-
+- element k bich me "padding de do x-axis" prr 8 ka 
+```js
+<div className="px-8"></div>
+```
 
 # search tailwind css breakpoints on screen -> md:768px
 
