@@ -91,8 +91,8 @@ justify-center
   - rounded-l-xl 
 - border-width: 
   - border-2
-- border-color: border-indigo-500
-- border-color : border-gray-500/50
+- border-color => border-indigo-500
+- border-color => border-gray-500/50
 - border (right,left me adjust krne k liye) : 
   - border-r-0,border-l-0
 
