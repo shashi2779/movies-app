@@ -1,11 +1,15 @@
 ## tailwind css
 
-##### tailwind cdn
+- tailwind cdn
 ```js
 <script src="https://cdn.tailwindcss.com"></script>
 ```
-#tailwind 
-#this property give in react @ className=" "
+- if you get tailwind css property on your element , then write in className=""
+```js
+<div className="flex space-x-8 px-8 ">
+
+</div>
+```
 # search tailwind css breakpoints on screen -> md:768px
 
 ->flex
