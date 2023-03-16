@@ -10,7 +10,15 @@ import Logo from '../logo.png';
 bg-[url(link)]
 
 
+
 //dynamic img - ${img}
 bg-[url(https://image.tmdb.org/t/p/original/${movies.backdrop_path})]
+
+
+
+
+<div className={`bg-[url(https://image.tmdb.org/t/p/original/${movies.backdrop_path})] h-[28vh] md:h-[70vh] bg-center bg-cover flex items-end justify-center`}>
+ 
+</div>
 
 ```
