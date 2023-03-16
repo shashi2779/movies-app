@@ -1,5 +1,9 @@
-#tailwind cdn
+## tailwind css
 
+##### tailwind cdn
+```js
+<script src="https://cdn.tailwindcss.com"></script>
+```
 #tailwind 
 #this property give in react @ className=" "
 # search tailwind css breakpoints on screen -> md:768px
