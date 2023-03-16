@@ -9,6 +9,7 @@ import Logo from '../logo.png';
 ```js
 bg-[url(link)]
 
+
 //dynamic img - ${img}
 bg-[url(https://image.tmdb.org/t/p/original/${movies.backdrop_path})]
 
