@@ -20,6 +20,9 @@
 - other property
 ```js
 padiing : 20px;
+flex-direction: column;
+justify-content : center;
+align-items: center;
 
 ```
 
