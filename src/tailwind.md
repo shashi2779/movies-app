@@ -96,7 +96,7 @@ justify-center
 - border (right,left me adjust krne k liye) : 
   - border-r-0,border-l-0
 
-- space in items : space-x-8
+- space in items => space-x-8
 
 - text ko color : 
    - text-blue-400 
@@ -114,7 +114,7 @@ justify-center
 - backgroung-size : 
   - bg-center,
   - bg-cover
-- background-color : bg-gray-900 
+- background-color => bg-gray-900 
 - background me "opacity" dene k liye : bg-opacity-50
 
 - hover : scale() => hover:scale-110 ,
