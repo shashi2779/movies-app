@@ -146,11 +146,7 @@ justify-center
                      ease-out ,
                      duration-300
 - text-center - se obj/ele center aata h
-```js
-console.table()
-react spinner loader
 
-```
 - search tailwind css breakpoints on screen md:768px
 ```js
 module.exports = {
