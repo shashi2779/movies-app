@@ -101,7 +101,7 @@ justify-center
 - text ko color : 
    - text-blue-400 
    - search tailwind color
-- text ka color : text-white
+- text ka color => text-white
 
 - font-size : 
   - text-xl,
