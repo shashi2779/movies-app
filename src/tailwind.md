@@ -65,6 +65,7 @@ border
 items-center
 items-end
 justify-center
+cursor-pointer
 
 ```
 - display : flex => flex
