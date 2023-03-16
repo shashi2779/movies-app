@@ -81,10 +81,12 @@ justify-center
   - h-5,
   - h-6
   - h-[35vh]
+  - h-[500px]
 - width : 100% ,100px
   - w-full
   - w-3
   - w-[20vw]
+  - w-[250px]
 
 - padding : 8px
   - px-8 (padding x-axis me 8)  - tailwind css me 
