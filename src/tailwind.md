@@ -38,6 +38,8 @@ align-items: center;
     </div>
 
     
+    OR
+    
     
     <div className={`flex space-x-8 px-8`}>
        ..........
