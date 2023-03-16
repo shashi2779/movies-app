@@ -30,6 +30,9 @@ bg-[url(https://image.tmdb.org/t/p/original/${movies.backdrop_path})]
 </div>
 
 ```
-- search on google for loader => react spinner loader
-- console.table()  OR console.log()
+- search on google for loader
+    - react spinner loader
+- console karne k liye
+  - console.table( )
+  - console.log( )
 
