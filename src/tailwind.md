@@ -117,14 +117,14 @@ justify-center
 - background-color : bg-gray-900 
 - background me "opacity" dene k liye : bg-opacity-50
 
-- hover:scale() :=> hover:scale-110 ,
+- hover : scale() => hover:scale-110 ,
                      ease-out ,
                      duration-300
-
+- text-center - se obj/ele center aata h
 ```js
 console.table()
-text-center - se obj center aata h
 react spinner loader
+
 ```
 - search tailwind css breakpoints on screen md:768px
 ```js
