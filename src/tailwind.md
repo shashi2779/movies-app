@@ -47,7 +47,7 @@ items-end
 justify-center
 ```
 - display : flex => flex
-- flex-column : flex-col
+- flex-direction: column => flex-col
 - justify-content : center => justify-center
 - align-item: center
     - items-center
