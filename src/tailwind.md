@@ -39,39 +39,68 @@ padiing : 20px;
 ```
 - other property
 ```js
+flex
+space-x-8
 border
 items-center
+items-end
+justify-center
 ```
-- flex
+- display : flex => flex
 - flex-column : flex-col
-- justify-content : center = justify-center
-- align-item: items-center ,items-end
+- justify-content : center => justify-center
+- align-item: center => items-center ,items-end
 
-- height : h-1,2,3,4,5,6
-- width : w-full ,w-3
+- height : 100% ,100px => h-1,2,3,4,5,6
+- width : 100% ,100px => w-full ,w-3
 
-- padding : px-8 (padding x-axis me 8) ,py-3(padding y-axis me 3)
-- margin : mt-8 (margin-top) , mb-8 (margin-bottom)
+- padding : 8px
+  - px-8 (padding x-axis me 8)  - tailwind css me 
+  - py-3 (padding y-axis me 3)
+- margin : 8px
+  - mt-8 (margin-top) 
+  - mb-8 (margin-bottom)
 
-- border: border,border-3
-- border-radius : rounded-xl,rounded-md,rounded-lg, rounded , rounded-full
-- border-radius : rounded-b-xl (rounded bottom xl) 
-- border-radius : rounded-r-xl (border right me rounded xl)
-- border-radius : rounded-l-xl 
-- border-width: border-2
+- border : 1px ,3px
+  - border
+  - border-3
+- border-radius : 5px
+  - rounded-xl
+  - rounded-md
+  - rounded-lg
+  - rounded
+  - rounded-full
+- border-radius : 
+  - rounded-b-xl (rounded bottom xl) 
+- border-radius : 
+  - rounded-r-xl (border right me rounded xl)
+- border-radius : 
+  - rounded-l-xl 
+- border-width: 
+  - border-2
 - border-color: border-indigo-500
 - border-color : border-gray-500/50
-- border (right,left me adjust krne k liye) : border-r-0,border-l-0
+- border (right,left me adjust krne k liye) : 
+  - border-r-0,border-l-0
 
 - space in items : space-x-8
 
-- text ko color : text-blue-400 #search tailwind color
+- text ko color : 
+   - text-blue-400 
+   - search tailwind color
 - text ka color : text-white
 
-- font-size : text-xl,text-3xl,text-lg (mana shirt ka size ho xl)
-- font-weight: font-medium , font-bold
+- font-size : 
+  - text-xl,
+  - text-3xl,
+  - text-lg (mana shirt ka size ho xl)
+- font-weight: 
+  - font-medium 
+  - font-bold
 
-- backgroung-size : bg-center,bg-cover
+- backgroung-size : 
+  - bg-center,
+  - bg-cover
 - background-color : bg-gray-900 
 - background me "opacity" dene k liye : bg-opacity-50
 
