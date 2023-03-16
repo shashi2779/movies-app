@@ -43,7 +43,30 @@ border
 items-center
 ```
 
-# search tailwind css breakpoints on screen -> md:768px
+- search tailwind css breakpoints on screen md:768px
+```js
+module.exports = {
+  theme: {
+    screens: {
+      'sm': '640px',
+      //aise "css" me likhate hai => @media (min-width: 640px) { ... } 
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    }
+  }
+}
+
+```
 
 - flex
 - flex-column : flex-col
