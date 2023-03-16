@@ -10,6 +10,27 @@
 
 </div>
 ```
+## compair with "css" & "tailwind css"
+
+ ### css
+ 
+- element ko agal-bagal lane k liye in css
+  
+  - display : flex
+
+
+ ### tailwind css 
+ 
+ - element ko agal-bagal lane k liye in tailwind css
+```js
+  <div className="flex"></div>
+```
+- space de do x-axis prr 8 ka , element k bich me
+```js
+    <div className="space-x-8"></div>
+```
+
+
 # search tailwind css breakpoints on screen -> md:768px
 
 ->flex
