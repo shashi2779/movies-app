@@ -39,4 +39,4 @@ bg-[url(https://image.tmdb.org/t/p/original/${movies.backdrop_path})]
 - mouse " Hover " karane pe function's
    
    - onMouseEnter = {()=>{setHover(movie.id)}}
-   - onMouseLeave = {()=>{setHover("")}}
+   - onMouseLeave = {()=>setHover("")}
