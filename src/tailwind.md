@@ -31,6 +31,13 @@ align-items: center;
  - element ko agal-bagal lane k liye in tailwind css
 ```js
   <div className="flex"></div>
+
+    <div className={`flex space-x-8 px-8`}>
+       ..........
+       ..........
+       ..........
+    </div>
+
 ```
 - space de do x-axis prr 8 ka , element k bich me
 ```js
@@ -48,6 +55,7 @@ border
 items-center
 items-end
 justify-center
+
 ```
 - display : flex => flex
 - flex-direction: column => flex-col
