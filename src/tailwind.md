@@ -70,6 +70,8 @@ justify-center
 - padding : 8px
   - px-8 (padding x-axis me 8)  - tailwind css me 
   - py-3 (padding y-axis me 3)
+  - pl (padding left se)
+  - pr (padding right se)
 - margin : 8px
   - mt-8 (margin-top) 
   - mb-8 (margin-bottom)
