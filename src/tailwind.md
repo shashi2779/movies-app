@@ -23,6 +23,7 @@ padiing : 20px;
 flex-direction: column;
 justify-content : center;
 align-items: center;
+flex-wrap: wrap;
 
 ```
 
@@ -68,6 +69,7 @@ justify-center
 ```
 - display : flex => flex
 - flex-direction: column => flex-col
+- flex-wrap: wrap => flex-wrap  // imp
 - justify-content : center => justify-center
 - align-item: center
     - items-center
