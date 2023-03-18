@@ -11,9 +11,9 @@ function Favourites() {
   }
 
 
-    const [currentGenres,setCurrentGenres] = useState("All Genres")
-    const [fav,setFav] = useState([])
-    const [genres, setGenres] = useState([])
+    const [currentGenres,setCurrentGenres] = useState("All Genres")   // button ka color blue/green kiya
+    const [fav,setFav] = useState([])          // fav movie aayi
+    const [genres, setGenres] = useState([])   // button(genres) ko dynamic krr liya - track the genres
     const [rating, setRating] = useState(0)
     const [popularity, setPopularity] = useState(0)
     const [curPage, setCurPage] = useState(1)
@@ -24,7 +24,8 @@ function Favourites() {
 
 
     // for getting movies from local storage
-    //fav movie aaya ess se
+   //  fav movie aaya ess se
+  //   fav movie add kiye toh yha aaya
   useEffect(() => {
     let oldFav = localStorage.getItem("tmdb");
     // console
@@ -40,11 +41,13 @@ function Favourites() {
   useEffect(() => {
     let temp = fav.map((movie) => genreids[movie.genre_ids[0]])
     console.log(temp)
-    temp = new Set(temp) // unique entry (uni-value store krta h) : ek nam k multiple genre h usko kam krat h ek hi show karega just like unique entry
+    temp = new Set(temp) // unique entry (uni-value store krta h) : ek nam k multiple genre(button) h usko kam krat h ek hi show karega just like unique entry
     setGenres(["All Genres", ...temp]);
   }, [fav])
 
 
+
+  // delete kiya movie ko 
     let removeMovies = (movie)=>{
       let newArr = fav.filter((m)=>m.id!=movie.id)
       setFav([...newArr])
