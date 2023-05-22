@@ -65,7 +65,7 @@ function Favourites() {
 
  // sorting 
  if (rating == 1) {
-  filteredMovies = filteredMovies.sort(function (objA, objB) { // sort array sort krta h , prr yha array of obj h toh fun ek lega sort krne k liye
+  filteredMovies = filteredMovies.sort(function (objA, objB) { // sort , array sort krta h ... prr yha "array of obj" h toh "fun" ek lega sort krne k liye
     return objA.vote_average - objB.vote_average
   })
 } else if (rating == -1) {
