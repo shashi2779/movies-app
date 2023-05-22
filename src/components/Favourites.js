@@ -66,11 +66,11 @@ function Favourites() {
  // sorting 
  if (rating == 1) {
   filteredMovies = filteredMovies.sort(function (objA, objB) { // sort , array sort krta h ... prr yha "array of obj" h toh "fun" ek lega sort krne k liye
-    return objA.vote_average - objB.vote_average
+    return objA.vote_average - objB.vote_average          // acending order me sort hua
   })
 } else if (rating == -1) {
   filteredMovies = filteredMovies.sort(function (objA, objB) {
-    return objB.vote_average - objA.vote_average
+    return objB.vote_average - objA.vote_average         // decanding order me sort hua
   })
 }
 
